@@ -1,16 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple drag and drop editor created in React.js.
 
-## Available Scripts
+Simply drag the table icon into the editor to add a table. You can add multiple tables.
 
-In the project directory, you can run:
+## Setting up
 
-### `npm start`
+In the project root directory run
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    npm install
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Also in the `/server` directory, run
+
+    npm install
+
+### Staring development server
+
+First, start the Express server from inside the `/server` directory
+
+    node index
+
+Then, start the React development server from the project root directory.
+
+    npm start
+
+Open [http://localhost:3000](http://localhost:3000) to view the project in the browser.
+
 
 ### `npm test`
 

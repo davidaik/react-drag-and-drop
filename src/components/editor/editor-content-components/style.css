@@ -1,0 +1,21 @@
+table {
+  position: absolute;
+  background: #efefef;
+}
+
+tr {
+  background: rgb(139, 228, 255);
+}
+
+th,
+td {
+  padding: 8px;
+}
+
+th {
+  font-weight: bold;
+}
+
+tr:nth-of-type(odd) {
+  background: rgb(184, 238, 255);
+}

@@ -1,0 +1,19 @@
+.addable {
+  width: 48px;
+  height: 48px;
+  border-radius: 4px;
+  text-align: center;
+  transition: all 200ms;
+  cursor: pointer;
+  user-select: none;
+}
+
+.addable:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.addable i {
+  width: 24px;
+  line-height: 48px;
+  color: #fff;
+}

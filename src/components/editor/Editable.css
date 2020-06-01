@@ -1,0 +1,11 @@
+#editable-wrapper {
+  position: relative;
+  flex-grow: 1;
+  height: calc(100% - 32px);
+  margin: 16px 24px;
+  padding: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: #fff;
+  overflow: auto;
+}
